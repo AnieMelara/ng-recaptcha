@@ -1,6 +1,12 @@
 {
-  "name": "@cmn/ng-recaptcha",
-  "version": "13.2.1",
+  "name": "ng-recaptcha-angular19",
+  "version": "19.0.0",
+  "description": "Updated fork of ng-recaptcha compatible with Angular 19",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnieMelara/ng-recaptcha"
+  },
   "scripts": {
     "demo:file-gen": "ts-node --project ./tsconfig.node.json ./projects/demo/bin/file-gen.ts",
     "demo:serve": "yarn demo:file-gen && ng serve demo",

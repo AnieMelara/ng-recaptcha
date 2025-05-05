@@ -1,22 +1,30 @@
 {
-  "name": "ng-recaptcha",
-  "description": "Angular component for Google reCAPTCHA",
-  "version": "13.2.1",
-  "author": "Ruslan Arkhipau <dethariel@gmail.com>",
+  "name": "ng-recaptcha-angular19",
+  "version": "19.0.0",
+  "description": "Forked and updated version of ng-recaptcha compatible with Angular 19",
+  "author": "Ani Melara",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DethAriel/ng-recaptcha"
+    "url": "git+https://github.com/AnieMelara/ng-recaptcha.git"
   },
-  "homepage": "https://github.com/DethAriel/ng-recaptcha#readme",
+  "homepage": "https://github.com/AnieMelara/ng-recaptcha#readme",
   "keywords": [
     "angular",
     "recaptcha",
-    "angular-recaptcha",
-    "ng-recaptcha"
+    "ng-recaptcha",
+    "angular19",
+    "captcha",
+    "google recaptcha",
+    "reCAPTCHA v2",
+    "reCAPTCHA v3"
   ],
   "peerDependencies": {
-    "@angular/core": "^17.0.0"
+    "@angular/core": "^19.0.0",
+    "@angular/common": "^19.0.0",
+    "@angular/forms": "^19.0.0",
+    "rxjs": "^7.8.1",
+    "zone.js": "~0.15.0"
   },
   "dependencies": {
     "@types/grecaptcha": "^3.0.7",
