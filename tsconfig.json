@@ -17,9 +17,10 @@
     "module": "es2020",
     "lib": ["es2020", "dom"],
     "paths": {
-      "ng-recaptcha": ["dist/ng-recaptcha/ng-recaptcha", "dist/ng-recaptcha"]
+      "@cmn/ng-recaptcha": ["dist/ng-recaptcha/ng-recaptcha", "dist/ng-recaptcha"]
     },
     "useDefineForClassFields": false
   },
+  "include": ["src/**/*.ts"],
   "exclude": ["projects/demo/cypress/**/*.ts"]
 }
